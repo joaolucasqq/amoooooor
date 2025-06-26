@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carta de Amor ❤️</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      background: #f68c8c;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #fff;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .carta {
+      background: rgba(255, 49, 49, 0.9);
+      max-width: 600px;
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      line-height: 1.6;
+      font-size: 1.2rem;
+      position: relative;
+      text-align: left;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .carta::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      border: 2px solid #fff3f3;
+      border-radius: 14px;
+      pointer-events: none;
+      box-sizing: border-box;
+    }
+
+    .carta h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .carta p {
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .botoes-container {
+      display: flex;
+      gap: 20px;
+      max-width: 600px;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-voltar, .btn-galeria {
+      background-color: white;
+      color: #f04f78;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      max-width: 200px;
+      width: 100%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .btn-voltar:hover, .btn-galeria:hover {
+      background-color: #ffdede;
+    }
+
+    @media (max-width: 768px) {
+      .carta {
+        padding: 30px 30px;
+        font-size: 1rem;
+      }
+
+      .carta h2 {
+        font-size: 1.5rem;
+      }
+
+      .botoes-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .btn-voltar, .btn-galeria {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body, html {
+        padding: 10px;
+      }
+
+      .carta {
+        padding: 28px 28px;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <article class="carta">
+    <h2>Amor,</h2>
+
+    <p>Hoje, mesmo sem tempo para algo muito elaborado, eu precisava te dizer algo especial. Você é a mulher da minha vida, a mulher que vai ser mãe dos nossos filhos. Quero que saiba que estarei sempre ao seu lado, em todos os momentos, seja no sorriso ou nas dificuldades.</p>
+
+    <p>Você é meu refúgio no meio do caos, minha paz na correria do dia a dia, meu lugar mais seguro e favorito no mundo. Nem consigo colocar em palavras o que sinto por você, mas quero que saiba que tudo o que faço é pensando no nosso futuro juntos.</p>
+
+    <p>Sei que trabalho muito, e às vezes falta tempo, mas tudo é por nós, pelo nosso sonho de viajar o mundo, construir uma família cheia de amor e criar nossos filhos da melhor forma possível. Do fundo do meu coração, te digo que, se algo acontecesse e a gente não pudesse ficar junto, eu não sei o que faria da minha vida, mas prometo que isso nunca vai acontecer.</p>
+
+    <p>Te amo demais, e vou cuidar desse amor com todo o meu ser.</p>
+  </article>
+
+  <div class="botoes-container">
+    <a href="index.html" class="btn-voltar" role="button">← Voltar</a>
+    <a href="galeria.html" class="btn-galeria" role="button">Nossa Galeria</a>
+  </div>
+
+</body>
+</html>

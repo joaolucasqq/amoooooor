@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pra Você ❤️</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f68c8c;
+      color: white;
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 5vw;
+      gap: 30px;
+      text-align: center;
+    }
+
+    .hero-text {
+     background: rgba(255, 49, 49, 0.9); /* 90% de opacidade */
+      padding: 40px 50px;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .hero-text h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 15px;
+      color: #fff;
+    }
+
+    .btn {
+      background-color: white;
+      color: #f04f78;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #ffdede;
+    }
+
+    @media (max-width: 768px) {
+      .hero-text {
+        padding: 30px 20px;
+      }
+      .hero-text h1 {
+        font-size: 1.6rem;
+      }
+      .btn {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero-section">
+    <div class="hero-text">
+      <h1>Quero falar algo especial para você!</h1>
+      <p>Tem algo que eu preciso que você saiba... 💖</p>
+    </div>
+
+    <a href="mensagem.html" class="btn">Clique aqui para saber</a>
+
+  </section>
+
+</body>
+</html>
